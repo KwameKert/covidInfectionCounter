@@ -3,21 +3,16 @@ package com.codeinsyt;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
-        System.out.println(covidInfectionCount(5));
+        //count for 10 days with a one infection rate
+        System.out.println(" Day  |  No. infections");
+        for(int day = 1; day < 11; day++){
+            int numberInfections =  CovidInfectionsCounter.count(day, 1);
+            System.out.println(day + " | "+ numberInfections+" ");
+        }
 
     }
 
-    public static int covidInfectionCount(int days){
-            int infectionPerCount = 2;
 
-            if(days == 1) return 1;
-            if(days == 2) return 3;
-
-            int oneDayEarlier = covidInfectionCount(days -1);
-            int twoDayEarlier = covidInfectionCount(days - 2);
-
-        return  oneDayEarlier+ infectionPerCount*( oneDayEarlier - twoDayEarlier );
-    }
 }
