@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/churchPress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/issues-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/security-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/skuulba-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-tdd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot-learn-by-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tdd" vcs="Git" />
+  </component>
+</project>
